@@ -1,0 +1,40 @@
+form {
+    background-color: gray;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+form img {
+    width: 100%;
+}
+h1 {
+    text-align: center
+}
+p {
+    text-align: center;
+    color: gainsboro;
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+h3 {
+    text-align: center
+}
+h3 img {
+    width: 20px;
+    /* text-align: center; */
+}
+.icons {
+    width: 20px;
+    margin: 0 4px;
+    /* height: 20px; */
+}
+button {
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 40px;
+    margin-bottom: 10px;
+}

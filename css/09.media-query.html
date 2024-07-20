@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        p {
+            background-color: aquamarine;
+            margin: 0 0 2px 0;
+            padding: 5px;
+            width: 100px;
+        }
+        p:nth-child(odd) {
+            background-color: chartreuse;
+        }
+        @media screen and (min-width:500px) {
+            body {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            p {
+                width: 50%;
+            }
+        }
+        @media screen and (min-width:650px) {
+            p {
+                width: 25%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>Para 1</p>
+    <p>Para 2</p>
+    <p>Para 3</p>
+    <p>Para 4</p>
+    <p>Para 5</p>
+    <p>Para 6</p>
+
+</body>
+</html>
