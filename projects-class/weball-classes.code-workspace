@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../My Work"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "weball-classes"
+	}
+}

@@ -1,5 +1,5 @@
 form {
-    background-color: gray;
+    background-color: rgb(206, 197, 197);
     width: 300px;
     text-align: center;
     margin: auto;
@@ -12,14 +12,17 @@ h1 {
 }
 p {
     text-align: center;
-    color: gainsboro;
+    color: rgb(152, 143, 143);
 }
 h2 {
     font-size: 20px;
     text-align: center;
+    color: rgb(3, 3, 3);
 }
 h3 {
-    text-align: center
+    text-align: center;
+    color: rgb(152, 140, 140);
+    font-weight: 300;
 }
 h3 img {
     width: 20px;
@@ -27,8 +30,11 @@ h3 img {
 }
 .icons {
     width: 20px;
-    margin: 0 4px;
-    /* height: 20px; */
+    margin:4px;
+    height: 20px;
+    display: flex;
+    margin-left: 40px;
+
 }
 button {
     background-color: black;

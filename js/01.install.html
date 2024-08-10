@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Installation Method</title>
+    <style>
+        button {
+            display: block;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="alert('Welcome to Weball-Inline')">Click Me - Inline!</button>
+    <button id="InternalBtn">Click Me - Internal!</button>
+    <button id="ExternalBtn">Click Me - External!</button>
+
+    <script>
+        document.getElementById('InternalBtn').addEventListener('click',function() {
+        alert('welcome to weball-internal')
+    })
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
