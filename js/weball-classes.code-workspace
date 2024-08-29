@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../connect"
+		},
+		{
+			"path": "../../portfolio/connect"
+		},
+		{
+			"path": "../../portfolio"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "weball-classes"
+	}
+}

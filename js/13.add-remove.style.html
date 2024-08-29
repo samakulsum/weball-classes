@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add/Remove Styles</title>
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Add/Remove Classes</h1>
+    <button id="btn">Update Styles</button>
+    <script>
+        let headingE1 = document.getElementById('heading');
+        let btnE1 = document.getElementById('btn');
+
+        btnE1.addEventListener('click',function(){
+            headingE1.style.color = "blue"
+            headingE1.style.backgroundColor = "yellow"
+            headingE1.style.fontSize = "50px"
+            headingE1.style.textDecoration = "underline"
+        })
+        
+
+    </script>
+</body>
+</html>
